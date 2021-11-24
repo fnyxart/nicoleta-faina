@@ -7,10 +7,20 @@
   display: inline;
   padding: 10px;
 }
+
 .list-inline i {
   font-size: 50px;
   color: rgba(225, 174, 107, 0.25);
+  transition: all .1s ease-in-out 0s;
 }
+
 .list-inline i:hover {
   color: $dm-b;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 540px) {
+  .list-inline i {
+    color: $dm-b;
+  }
 }

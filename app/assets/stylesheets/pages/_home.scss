@@ -21,7 +21,6 @@ body {
   font-style: normal;
   font-weight: bold;
   letter-spacing: -6.5px;
-  line-height: 130px;
   text-transform: none;
   color: $dm-b;
 }
@@ -32,4 +31,10 @@ body {
   line-height: auto;
   text-transform: none;
   color: $dark-text;
+}
+
+@media (max-width: 540px) {
+  #name-text {
+    letter-spacing: 0.3px;
+  }
 }
